@@ -19,7 +19,7 @@ public class HelloAppEngine extends HttpServlet {
 	  System.out.println("開始");
     response.setContentType("text/plain");
     response.setCharacterEncoding("UTF-8");
-    
+    System.out.println("終了");
     response.getWriter().print("Hello App Engine!!\r\n");
 
   }
