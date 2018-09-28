@@ -18,7 +18,7 @@ public class HelloAppEngine extends HttpServlet {
       throws IOException {
     response.setContentType("text/plain");
     response.setCharacterEncoding("UTF-8");
-    System.out.println("終了!!!");
+    System.out.println("終了！！！");
     response.getWriter().print("Hello App Engine!!\r\n");
 
   }
