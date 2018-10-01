@@ -17,6 +17,7 @@ public class HelloAppEngine extends HttpServlet {
   public void doGet(HttpServletRequest request, HttpServletResponse response) 
       throws IOException {
 	  System.out.println("衝突テスト");
+	  System.out.println("conflictテスト!");
     response.setContentType("text/plain");
     response.setCharacterEncoding("UTF-8");
     response.getWriter().print("Hello App Engine!!\r\n");
